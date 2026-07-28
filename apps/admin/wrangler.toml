@@ -1,7 +1,8 @@
 name = "loven7-mail-cloudflare-suite"
 pages_build_output_dir = "./dist"
 compatibility_date = "2026-05-11"
-
+ [assets]
+ directory = "./dist"
 # 管理后台邮件已读/星标状态可选使用 Cloudflare KV。建议在 Cloudflare Pages 控制台绑定：
 #   binding: MAIL_READ_STATE_KV
 #   namespace: 你自己创建的 KV Namespace
